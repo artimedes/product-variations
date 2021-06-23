@@ -1,0 +1,95 @@
+.option-field > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.option-switch li, ul.option-switch-formaat li {
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 5px;
+	width: 120px;
+	min-height: 135px;
+	border: 1px solid silver;
+	list-style: none;
+}
+
+ul.option-switch-formaat {
+	display: inline-flex;
+	width: 640px;
+    overflow: auto;
+    white-space:nowrap;
+    
+}
+	ul.option-switch-formaat li {
+		min-height: 35px;
+		display: inline;
+	}
+ul.option-switch li:hover, .option-label:hover {
+	cursor: pointer;
+}
+.option-switch li .option-img {
+	cursor: pointer;
+	display: block;
+	margin:0 auto;
+}
+label.option-label > input {
+	visibility: hidden;
+	position: absolute;
+}
+
+.product-desc-wrap { width: 100%; }
+
+label.option-label > span {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 10pt;
+}
+label.option-label > span > tag {
+	color: silver;
+	font-size: 8pt;
+}
+label.option-label > span > .display_inch {
+	display: none;
+}
+
+.option_li {
+	border: 1px solid silver;
+	padding: 7px !important;
+}
+.option_li_checked {
+	border: 3px solid #456082 !important;
+}
+
+.preloader {
+	width: 32px;
+	height: 32px;
+	background-size: contain;
+	margin: .5em 0;
+}
+
+.attachment-shop_single {
+	border: solid silver thin;
+}
+
+.cart {
+	margin-top: 0 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+	ul.option-switch-formaat {
+		display: inline-flex;
+		width: 510px;
+		overflow: auto;
+		white-space:nowrap;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	ul.option-switch-formaat {
+		display: inline-flex;
+		width: 250px;
+		overflow: auto;
+		white-space:nowrap;
+	}
+}
